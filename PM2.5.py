@@ -3,12 +3,12 @@ def sent(message):
     from email.mime.text import MIMEText 
 
     # 寄件者，收件者
-    from_addr = 'kevin930111@gmail.com'
-    to_addr = '810122@stu.nknush.kh.edu.tw'
+    from_addr = 'xxxxxxxxxx'
+    to_addr = 'xxxxxxxxx'
 
 
     smtpssl=smtplib.SMTP_SSL("smtp.gmail.com", 465) 
-    smtpssl.login(from_addr, "a3.1415926a")
+    smtpssl.login(from_addr, "xxxxxxx")
 
     msg = '現在空氣PM25密度:'+message+'(μg/m3) '+'時間: '+x
     mime=MIMEText(msg, "plain", "utf-8") 
